@@ -1,0 +1,4 @@
+{
+	"PrimaryPhase": "ServerCode/Phase/Primary",
+	"SecondaryPhase": "ServerCode/Phase/Secondary"
+}

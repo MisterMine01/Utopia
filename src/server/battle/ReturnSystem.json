@@ -1,0 +1,49 @@
+{
+	"GetServId": {
+		"GET": {
+			"ServerId": "200"
+		},
+		"POST": [],
+		"PHP_function": "GetServerId"
+	},
+	"GetBddVersion": {
+		"GET": {
+			"UtopiaVersion": "200"
+		},
+		"POST": [],
+		"PHP_function": "GetVersion"
+	},
+	"GetBdd": {
+		"GET": {
+			"Utopia": "200"
+		},
+		"POST": [],
+		"PHP_function": "SendUtopia"
+	},
+	"GetImage": {
+		"GET": {
+			"Image": "200"
+		},
+		"POST": [
+			"idImage",
+			"language"
+		],
+		"PHP_function": "SendImage"
+	},
+	"IfBattleServer": {
+		"GET": {
+			"IfBattleServer": "200"
+		},
+		"POST": [],
+		"PHP_function": "GetServerId"
+	},
+	"Ping": {
+		"GET": {
+			"ping": "200"
+		},
+		"POST": [
+			"Token",
+			"B-Token"
+		]
+	}
+}

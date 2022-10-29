@@ -1,0 +1,59 @@
+{
+    "CreateServer": {
+        "GET": {
+            "create": "200"
+        },
+        "POST": [
+            "ServerName",
+            "userToken",
+            "Atoken",
+            "url"
+        ],
+        "PHP_function": "create_server"
+    },
+    "GetServerByToken": {
+        "GET": {
+            "token": "200"
+        },
+        "POST": [
+            "tokenSearch",
+            "userToken",
+            "Atoken"
+        ],
+        "PHP_function": "GetServerToken"
+    },
+    "ResearchServer": {
+        "GET": {
+            "search": "200"
+        },
+        "POST": [
+            "Search",
+            "userToken",
+            "Atoken"
+        ],
+        "PHP_function": "Search"
+    },
+    "GetServerInfo": {
+        "GET": {
+            "info": "200"
+        },
+        "POST": [
+            "ServerToken",
+            "userToken",
+            "Atoken"
+        ],
+        "PHP_function": "GetServerInfo"
+    },
+    "SendServerInfo": {
+        "GET": {
+            "info": "202"
+        },
+        "POST": [
+            "ServerToken",
+            "userToken",
+            "Atoken",
+            "newInfo"
+        ],
+        "PHP_function": "SendServerInfo"
+    }
+}

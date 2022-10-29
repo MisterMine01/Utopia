@@ -1,0 +1,7 @@
+src/db/compiled/*
+*__pycache__*
+*.ttf
+*.png
+src/server/battle/Bdd/*
+src/server/battle/Battle/*/
+dst

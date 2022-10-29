@@ -1,0 +1,12 @@
+{
+    "page": "battle.html",
+    "js": [
+        "../launcher.root.js",
+        "../launcher.rod.js",
+        "launcher.battle.js"
+    ],
+    "css": [
+        "battle.css",
+        "../launcher_type.css"
+    ]
+}

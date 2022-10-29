@@ -1,0 +1,5 @@
+
+client/AccountFile.json
+server/ServerFile.json
+client/img/*
+data.db

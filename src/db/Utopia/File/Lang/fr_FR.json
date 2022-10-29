@@ -1,0 +1,58 @@
+{
+	"Utopia.Gigly.1": {
+		"name": "Chevalier Mediocre",
+		"description": ""
+	},
+	"Utopia.Gigly.2": {
+		"name": "Voleur a decouvert",
+		"description": "L'ennemi gagne 5 points de vie"
+	},
+	"Utopia.Gigly.3": {
+		"name": "Damo le battant",
+		"description": ""
+	},
+	"Utopia.Gigly.4": {
+		"name": "Fox le saboter",
+		"description": "Vous perdez X points de vie=_=X etant le nombre de cartes=_=sur le terrain"
+	},
+	"Utopia.Gigly.5": {
+		"name": "Recuperation d'ame",
+		"description": "Vous gagnez X eclat de plus par tour,=_=X etant le nombre de carte=_=sur votre terrain"
+	},
+	"Utopia.Gigly.6": {
+		"name": "Roi BB",
+		"description": "Vous perdez 1 points de vie"
+	},
+	"Utopia.Gigly.7": {
+		"name": "Mister Disque",
+		"description": "Vous gagnez X points de vie,=_=X etant le nombre total de=_=defense de toute les creatures qui=_=vous appartient sur le terrain"
+	},
+	"Utopia.Gigly.8": {
+		"name": "Ninja furtif",
+		"description": ""
+	},
+	"Utopia.Gigly.9": {
+		"name": "Deesse De La Destruction",
+		"description": "Toute les autres creatures gagne -2/-2"
+	},
+	"Utopia.Gigly.10": {
+		"name": "Deesse De La Creation",
+		"description": "Toute vos creatures gagne=_=\"Quand cette creature arrive sur=_= le champ de bataille, vous=_=gagner 1 eclats\""
+	},
+	"Utopia.Gigly.11": {
+		"name": "Travail d'equipe",
+		"description": "Le joueur ou la creature=_=ciblee subit X degats,=_=X etant le nombre de creature=_=que vous controller fois deux"
+	},
+	"Utopia.Gigly.12": {
+		"name": "Soudaine conviction",
+		"description": "La creature ciblee gagne +2/+2=_=jusqu'a la fin du tour"
+	},
+	"Utopia.Gigly.13": {
+		"name": "Arme brisee",
+		"description": "La creature ciblee gagne -3/0=_=jusqu'a la fin du tour"
+	},
+	"Utopia.Gigly.14": {
+		"name": "Espoir brisee",
+		"description": "La creature ciblee gagne 0/-3=_=jusqu'a la fin du tour"
+	}
+}

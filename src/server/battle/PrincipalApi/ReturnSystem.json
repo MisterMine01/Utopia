@@ -1,0 +1,23 @@
+{
+    "SetId": {
+        "GET": {
+            "id": "200"
+        },
+        "POST": [
+            "newId",
+            "ApiKey"
+        ],
+        "PHP_function": "setId"
+    },
+    "GetClient": {
+        "GET": {
+            "client": "200"
+        },
+        "POST": [
+            "Token",
+            "B-Token",
+            "ApiKey"
+        ],
+        "PHP_function": "launchClient"
+    }
+}

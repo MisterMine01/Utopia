@@ -1,0 +1,66 @@
+.client\.deck\.creator {
+    display: flex;
+}
+
+#client\.deck\.creator\.deck_name {
+    margin-top: 50vh;
+    margin-left: auto;
+}
+
+#client\.deck\.creator\.button_name {
+    margin-top: 50vh;
+    margin-right: auto;
+}
+
+.client\.deck\.creator\.card_counter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.client\.deck\.creator\.card_counter\.label {
+    display: block;
+    align-self: center;
+    font-size: 10vw;
+}
+
+.client\.deck\.creator\.card_keeper {
+    text-align: center;
+    display: inline-block;
+    height: 97vh;
+    overflow: auto;
+}
+
+.client\.deck\.creator\.card {
+    position: relative;
+    width: 24vw;
+    height: 34vw;
+}
+
+.client\.deck\.creator\.card\.img {
+    width: 100%;
+    height: 100%;
+}
+
+.client\.deck\.creator\.card\.att {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    font-size: 4vw;
+}
+
+.client\.deck\.creator\.card\.def {
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+    font-size: 4vw;
+}
+
+#client\.deck\.creator\.deck {
+    position: absolute;
+    right: 1vw;
+}
+
+#client\.deck\.creator\.all_card {
+    position: absolute;
+    left: 1vw;
+}

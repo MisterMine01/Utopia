@@ -1,0 +1,9 @@
+{
+    "page": "loading.html",
+    "js": [
+        "loading.js"
+    ],
+    "css": [
+        "loading.css"
+    ]
+}

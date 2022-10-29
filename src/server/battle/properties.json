@@ -1,0 +1,5 @@
+{
+    "ServerId": "Gigly.Utopia.Mick",
+    "PrincipalServer": "http:\/\/github\/Github\/UtopiaPrincipaleServer\/server\/",
+    "BddFolder": "Bdd"
+}

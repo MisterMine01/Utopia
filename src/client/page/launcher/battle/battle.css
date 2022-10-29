@@ -1,0 +1,24 @@
+#launcher\/battle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#launcher\/battle #launcher\.battle_menu {
+    background-color: coral;
+}
+
+#launcher\/battle #launcher\.battle\.battle_list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#launcher\/battle #launcher\.battle\.div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

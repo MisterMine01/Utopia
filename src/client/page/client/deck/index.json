@@ -1,0 +1,9 @@
+{
+    "page": "deck.html",
+    "js": [
+        "deck.js"
+    ],
+    "css": [
+        "deck.css"
+    ]
+}

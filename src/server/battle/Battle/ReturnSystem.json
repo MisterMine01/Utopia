@@ -1,0 +1,55 @@
+{
+	"Start": {
+		"GET": {
+			"start": "200"
+		},
+		"POST": [
+            "BattleId",
+			"PlayerId",
+			"ClientVersion",
+			"BddVersion"
+		],
+		"PHP_function": "start"
+	},
+	"WaitPlayer": {
+		"GET": {
+			"wait": "200"
+		},
+		"POST": [
+            "BattleId",
+			"PlayerId"
+		],
+		"PHP_function": "wait"
+	},
+	"SendDeck": {
+		"GET": {
+			"deck": "200"
+		},
+		"POST": [
+            "BattleId",
+			"PlayerId",
+			"Deck"
+		],
+		"PHP_function": "DeckSend"
+	},
+	"GetBattle": {
+		"GET": {
+			"BATTLE": "200"
+		},
+		"POST": [
+            "BattleId",
+			"PlayerId"
+		],
+		"PHP_function": "GetBattle"
+	},
+	"SendBattle": {
+		"GET": {
+			"BATTLE": "202"
+		},
+		"POST": [
+            "BattleId",
+			"PlayerId"
+		],
+		"PHP_function": "sendBattle"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"Card": {
+		"*CSV*": "index_part/CSV_card.json"
+	},
+	"lang": {
+		"fr_FR": "File/Lang/fr_FR.json"
+	},
+	"Rarity": {
+		"C": "File/Rarity/C.json",
+		"O": "File/Rarity/O.json",
+		"R": "File/Rarity/R.json",
+		"M": "File/Rarity/M.json",
+		"L": "File/Rarity/L.json"
+	},
+	"PrimaryPhase": {
+		"Main": "File/Phase/Primary/MainPhase.json",
+		"Battle": "File/Phase/Primary/BattlePhase.json",
+		"Defense": "File/Phase/Primary/DefensePhase.json"
+	},
+	"SecondaryPhase": {
+		"Damage": "File/Phase/Secondary/DamagePhase.json",
+		"CreaWin": "File/Phase/Secondary/CreaWinPhase.json"
+	},
+	"data": {
+		"image_folder": "index_part/image_data.json",
+		"function_folder": "index_part/function_data.json",
+		"phase_folder": "index_part/phase_data.json"
+	},
+	"Other": {
+		"state_color": "File/state.json"
+	}
+}

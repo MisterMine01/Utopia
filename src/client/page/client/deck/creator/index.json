@@ -1,0 +1,9 @@
+{
+    "page": "creator.html",
+    "js": [
+        "creator.js"
+    ],
+    "css": [
+        "creator.css"
+    ]
+}

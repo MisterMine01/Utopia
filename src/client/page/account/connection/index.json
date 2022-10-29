@@ -1,0 +1,9 @@
+{
+    "page": "connect.html",
+    "js": [
+        "../account.js"
+    ],
+    "css": [
+        "connect.css"
+    ]
+}

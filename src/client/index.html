@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Utopia</title>
+    <script src="Scripts/modules/XMLsync.js"></script>
+    <script src="Scripts/modules/dynamicpage.js"></script>
+    <script src="Scripts/modules/localforage.js"></script>
+    <script src="Scripts/modules/RCJS_API.js"></script>
+    <script src="Scripts/ClientAPI.js"></script>
+    <script src="Scripts/data.js"></script>
+    <script src="Scripts/BattleAPI.js"></script>
+    <script src="Scripts/BSAPI.js"></script>
+    <script src="Scripts/PBattle.js"></script>
+    <script class="dynamic_script">
+        window.addEventListener("load", function() {
+            change_page("");
+            localforage = localforage.createInstance({
+                name: "Utopia",
+                storeName: "Utopia"
+            });
+        });
+    </script>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>

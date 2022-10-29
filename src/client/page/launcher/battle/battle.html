@@ -1,0 +1,20 @@
+<div id="launcher.rod">
+    <button id="launcher.main_menu" onclick="Launcher.rod.MainButton()">Main Menu</button>
+    <button id="launcher.battle_menu">Battle Server</button>
+    <button id="launcher.language_menu" onclick="Launcher.rod.LanguageButton()">Language</button>
+</div>
+<div id="launcher.battle.div">
+    <br />
+    <label>Recherchez un serveur</label>
+    <br />
+    <input type="text" id="launcher.battle.new_server">
+    <br />
+    <br />
+</div>
+<div id="launcher.battle.battle_list">
+    <div class="launcher.battle.battle_list.battle_data" id="name">
+        <label>name</label>
+        <button value="name" onclick="Launcher.battle.set_server(this.value)">use</button>
+        <button value="name" onclick="Launcher.battle.delete_server(this.value)">DELETE</button>
+    </div>
+</div>

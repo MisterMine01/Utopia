@@ -1,0 +1,7 @@
+#!/bin/bash
+
+lastPWD=$PWD
+cd "$(dirname "$0")"
+cd src/db
+python3 main.py
+cd "$lastPWD"

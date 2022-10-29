@@ -1,0 +1,28 @@
+{
+	"language": "fr_FR",
+	"data": {
+		"id": {
+			"account.name": "Nom d'utilisateur: ",
+			"account.password": "Mot de passe: ",
+			"account.password2": "Répéter le mot de passe",
+			"account.create_account": "Créer le compte",
+			"account.pass_connection": "Se connecter à un compte existant",
+			"account.connect_account": "Se connecter",
+			"account.pass_creation": "Créer un nouveau compte",
+			
+			"launcher.main_menu": "Menu Principale",
+			"launcher.battle_menu": "Serveur de Combat",
+			"launcher.language_menu": "Langue",
+			"launcher.battle_use": "Serveur: ",
+			"launcher.language_use": "Langage: ",
+			"launcher.play": "Jouer",
+			
+			"loading.label": "Telechargement...",
+			
+			"client.play": "Jouer",
+			"client.deck": "Deck"
+		},
+		"class": {
+		}
+	}
+}

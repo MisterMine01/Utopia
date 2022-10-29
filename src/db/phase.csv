@@ -1,0 +1,6 @@
+Phase_Name,Phase_type,type,Phase_User,function
+DefensePhase,Primary,2,1,Defense_Phase
+MainPhase,Primary,0,0,Main_Phase
+BattlePhase,Primary,2,0,Battle_Phase
+DamagePhase,Secondary,4,0,Damage_Phase
+CreaWinPhase,Secondary,4,0,CreaWin_Phase

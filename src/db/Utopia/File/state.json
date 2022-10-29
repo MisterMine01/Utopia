@@ -1,0 +1,6 @@
+{
+	"Alive": "#FFFFFF",
+	"Dead": "#FFFFFF",
+	"Attack": "#FF0000",
+	"OnAttack": "#FFFB00"
+}

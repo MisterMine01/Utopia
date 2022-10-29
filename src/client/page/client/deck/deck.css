@@ -1,0 +1,10 @@
+#client\/deck {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#client\/deck #client\.deck\.deck_list {
+    align-self: center;
+}

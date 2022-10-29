@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ -d "dst" ]; then
+    rm -rf dst
+fi
+mkdir dst
+
+cp -r src/server/website/* dst/
+
+mkdir dst/api
+cp -r src/server/principal/* dst/api/
+
+mkdir dst/server
+cp -r src/server/battle/* dst/server/
+
+mkdir dst/client
+cp -r src/client/* dst/client/
+
+. db
+
+mkdir dst/server/Bdd
+cp -r src/db/compiled/* dst/server/Bdd/

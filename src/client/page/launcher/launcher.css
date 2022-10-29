@@ -1,0 +1,23 @@
+#launcher {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#launcher #launcher\.main_menu {
+    background-color: coral;
+}
+
+#launcher #launcher\.play {
+    position: fixed;
+    bottom: 0;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 99%;
+    height: 8em;
+}
+
+#launcher #launcher\.labeldiv {
+    align-self: center;
+}

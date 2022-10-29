@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf dst
+rm -rf src/db/compiled
+mkdir src/db/compiled

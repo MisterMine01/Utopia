@@ -1,0 +1,122 @@
+.client\.game\.battlefield {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: blue;
+}
+
+.client\.game\.battlefield\.hand {
+    display: flex;
+    flex: 2 0;
+    flex-flow: column nowrap;
+    background-color: red;
+    height: 100vh;
+    width: 20vw;
+    overflow-y: scroll;
+}
+
+.client\.game\.battlefield\.entry {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80vw;
+    height: 100vh;
+    background-color: violet;
+}
+
+.client\.game\.battlefield\.field  {
+    display: -webkit-box;
+    height: 33vh;
+    width: 80vw;
+    overflow-x: scroll;
+    background-color: black;
+}
+
+.client\.game\.battlefield\.info  {
+    display: flex;
+    font-size: 2.5vh;
+    height: 34vh;
+    flex-flow: column nowrap;
+    background-color: red;
+}
+
+/* INFO */
+.client\.game\.battlefield\.info\.enemy {
+    display: flex;
+    flex: 1 0;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.client\.game\.battlefield\.info\.party {
+    display: flex;
+    flex: 1 0;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.client\.game\.battlefield\.info\.user {
+    display: flex;
+    flex: 1 0;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+/*CARD HAND*/
+.client\.field\.hand {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.client\.field\.hand img {
+    width: 100%;
+    height: 100%;
+}
+
+.client\.field\.hand .card_div\.att {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    font-size: 4vw;
+}
+
+.client\.field\.hand .card_div\.def {
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+    font-size: 4vw;
+}
+
+
+/*CARD BATTLEFIELD*/
+
+.client\.field\.battle {
+    position: relative;
+    width: auto;
+    height: 31vh;
+}
+.client\.field\.battle img {
+    width: 95%;
+    height: 95%;
+    margin: 2.5%;
+}
+
+.client\.field\.battle .card_div\.att {
+    position: absolute;
+    bottom: 5.5%;
+    left: 17.5%;
+    font-size: 4vh;
+}
+
+
+.client\.field\.battle .card_div\.def {
+    position: absolute;
+    bottom: 5.5%;
+    right: 17.5%;
+    font-size: 4vh;
+}
