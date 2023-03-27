@@ -70,10 +70,10 @@ class MyDB
         $this->sqlite3 = false;
         if (!$this->sqlite3) {
             $this->connection = mysqli_connect(
-                "mysql-gigly.alwaysdata.net",
-                "gigly",
-                "DqjMe6NGF5j55eM",
-                'gigly_db'
+                "HOST",
+                "USER",
+                "PASSWORD",
+                "DATABASE"
             );
             $query = mysqli_query($this->connection, 'select * from Gigly_Right');
             if (!$query) {

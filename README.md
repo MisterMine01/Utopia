@@ -1,8 +1,9 @@
 # Utopia
 
-## Summary
+## Summary
 
 - [Utopia](#utopia)
+  - [Summary](#summary)
   - [What is Utopia ?](#what-is-utopia-)
   - [How to play ?](#how-to-play-)
   - [What you have in this repository ?](#what-you-have-in-this-repository-)
