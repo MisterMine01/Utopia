@@ -16,6 +16,11 @@
     - [Search a user](#search-a-user)
     - [Send an image](#send-an-image)
   - [Server](#server)
+    - [Create a new server](#create-a-new-server)
+    - [Get a server by this token](#get-a-server-by-this-token)
+    - [Researche a server by this name](#researche-a-server-by-this-name)
+    - [Get info of a server](#get-info-of-a-server)
+    - [Send new information of a server](#send-new-information-of-a-server)
 
 
 ## Api
@@ -116,3 +121,58 @@
 
 ## Server
 
+### Create a new server
+
+`POST /server?create=200`
+```json
+{
+    "ServerName": "ServerName",
+    "userToken": "userToken",
+    "Atoken": "Atoken",
+    "url": "url"
+}
+```
+
+### Get a server by this token
+
+`POST /server?token=200`
+```json
+{
+    "tokenSearch": "tokenSearch",
+    "userToken": "userToken",
+    "Atoken": "Atoken"
+}
+```
+
+### Researche a server by this name
+
+`POST /server?search=200`
+```json
+{
+    "Search": "Search",
+    "userToken": "userToken",
+    "Atoken": "Atoken"
+}
+```
+
+### Get info of a server
+
+`POST /server?info=200`
+```json
+{
+    "ServerToken": "ServerToken",
+    "userToken": "userToken",
+    "Atoken": "Atoken"
+}
+```
+
+### Send new information of a server
+
+`POST /server?info=202`
+```json
+{
+    "ServerToken": "ServerToken",
+    "userToken": "userToken",
+    "Atoken": "Atoken",
+    "newInfo": "newInfo"
+}
