@@ -18,4 +18,4 @@ The client is a web application. It's a single page who load all the other page 
 
 ### Installation
 
-For the client, you only need to have a web server. A free one for test or a apache in your computer can be used. In the [`Utopia.json`](src/client/Utopia.json) file, you have to change the `principal_server` to the url of your server.
+For the client, you only need to have a web server. A free one for test or a apache in your computer can be used. In the [`Utopia.json`](Utopia.json) file, you have to change the `principal_server` to the url of your server.
